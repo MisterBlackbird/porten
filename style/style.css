@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'PT Sans', sans-serif;
+}
+.conteiner{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.top-section{
+    padding: 14px 0;
+    background: #000;
+}
+.top-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: #969696;
+}
+.main-info{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.top-line a, .top-line button{
+    color: #969696;
+    background: none;
+    font-size: 12px;
+}
+.sign-in{
+    display: flex;
+    gap: 15px;
+}
+.header-section{
+    background: #0F0F0F;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    font-family: 'Post No Bills Jaffna', sans-serif;
+}
+.menu{
+    display: flex;
+}
+.menu-item{
+    padding: 30px 7px;
+}
+.menu-item.active{
+    background: #1F1F1F;
+}
+.menu-link{
+    color: #969696;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.menu-item.active a{
+    color: #FFF;
+}
+.first-section{
+    background: url('../image/rrr.png');
+}

@@ -212,3 +212,19 @@ header{
 .reverse{
     flex-direction: row-reverse;
 }
+.catalog-section{
+    background: #000;
+}
+.catalog-header{
+    font-size: 36px;
+    font-weight: 700;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+    padding-top: 100px;
+}
+.goods-wrap{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 25px;
+}
